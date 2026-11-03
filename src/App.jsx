@@ -1,4 +1,4 @@
-import BackgroundVideo from "./components/BackgroundVideo/BackgroundVideo";
+/*import BackgroundVideo from "./components/BackgroundVideo/BackgroundVideo";*/
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Video from "./components/Video/Video";
@@ -14,7 +14,7 @@ function App() {
     <div className={styles.container}>
       
       <Header />
-      <BackgroundVideo />
+     
       <Hero />        {/* Sección Inicio */}
       <Video />
       <Main />
