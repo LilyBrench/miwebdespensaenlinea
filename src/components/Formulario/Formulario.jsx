@@ -1,6 +1,10 @@
 const Formulario = () => {
   return (
-    <form name="contacto" method="POST" data-netlify="true" action="/Gracias.jsx">
+    <form 
+    name="contacto"
+    method="POST" 
+    data-netlify="true" 
+    action="/Gracias.jsx">
       <input type="hidden" name="form-name" value="contacto" />
       <label>
         Nombre:
