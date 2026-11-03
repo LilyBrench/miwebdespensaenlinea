@@ -5,8 +5,10 @@ import ProductCard from '../ProductCard/ProductCard';
 import React, { useState } from "react";
 
 
-const Main = () => (
-  <main className={styles.main}>
+const Main = () => {
+  return (
+    <div>
+      <main className={styles.main}>
 
 
     
@@ -54,7 +56,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
      <ProductCard
           image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/2007.png"
           title="ACEITES"
-          price=" 00001"
+          price="00001"
           
         /> 
       
@@ -62,21 +64,21 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
         <ProductCard
           image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/107992.png"
           title="BEBIDAS"
-           price=" 00002"
+           price="00002"
         />
     
      
         <ProductCard
           image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/104939.png"
           title="BOTANAS"
-          price=" 00003"
+          price="00003"
         />
       
      
         <ProductCard
           image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/104203.png"
           title="BEBES"
-          price=" 00004"
+          price="00004"
         />
 </div>
    </section>
@@ -189,6 +191,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
   </div>
 </section>
     </main>
+    </div>
   );
 };
 
