@@ -8,7 +8,8 @@ import Footer from "./components/Footer/Footer";
 
 import styles from "./App.module.css";
 
-const App = () => {
+function App() {
+  
   return (
     <div className={styles.container}>
       
