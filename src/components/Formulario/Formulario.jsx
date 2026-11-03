@@ -4,7 +4,8 @@ const Formulario = () => {
     name="contacto"
     method="POST" 
     data-netlify="true" 
-    action="/Gracias.jsx">
+    netlify-honeypot="bot-field"
+    action="/Gracias">
       <input type="hidden" name="form-name" value="contacto" />
       <label>
         Nombre:
