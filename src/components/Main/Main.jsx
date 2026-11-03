@@ -2,8 +2,6 @@
 import styles from './Main.module.css';
 import Mapa from '../Mapa/Mapa';
 import ProductCard from '../ProductCard/ProductCard';
-import React, { useState } from "react";
-
 
 const Main = () => {
   return (
@@ -11,8 +9,8 @@ const Main = () => {
       <main className={styles.main}>
 
 
+   
     
-    {/* Sección Quiénes somos */}
     <section id="quienes-somos" className={styles.about}>
      <center><h2>¿Quiénes somos?</h2></center> 
       <p>
@@ -27,7 +25,7 @@ const Main = () => {
  
       </p>
 </section>
-     {/* Sección Mision*/}
+   
     <section id="mision" className={styles.about}>
      <center> <h2>Misión</h2></center>
 
@@ -39,7 +37,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
 
     </section>
 
-    {/* Sección Vision */}
+   
     <section id="vision" className={styles.about}>
      <center><h2>Visión</h2></center> 
       <p>
@@ -49,42 +47,41 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       </p>
        </section>
 
-     {/* Sección Productos*/}
-    <section id="productos" className={styles.about}>  
-     <center> <h2>Productos que ofrecemos</h2></center> 
-     <div className={styles.productGrid}>
-     <ProductCard
-          image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/2007.png"
-          title="ACEITES"
-          price="00001"
-          
-        /> 
-      
-     
-        <ProductCard
-          image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/107992.png"
-          title="BEBIDAS"
-           price="00002"
-        />
-    
-     
-        <ProductCard
-          image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/104939.png"
-          title="BOTANAS"
-          price="00003"
-        />
-      
-     
-        <ProductCard
-          image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/104203.png"
-          title="BEBES"
-          price="00004"
-        />
-</div>
-   </section>
+   
+    <section id="productos" className={styles.about}>
+  <center>
+    <h2>Productos que ofrecemos</h2>
+  </center>
+
+  <div className={styles.productGrid}>
+    <ProductCard
+      image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/2007.png"
+      title="ACEITES"
+      price="00001"
+    />
+
+    <ProductCard
+      image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/107992.png"
+      title="BEBIDAS"
+      price="00002"
+    />
+
+    <ProductCard
+      image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/104939.png"
+      title="BOTANAS"
+      price="00003"
+    />
+
+    <ProductCard
+      image="https://despensa-en-linea-product-images.s3.us-east-2.amazonaws.com/104203.png"
+      title="BEBES"
+      price="00004"
+    />
+  </div>
+</section>
 
 
-{/* Sección proveedores*/}
+
 <section id="proveedores" className={styles.about}>
   <center><h2>Proveedores</h2></center>
   <table>
@@ -118,7 +115,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
 
 
 
-   {/* Sección ubicacion*/}
+  
 <section id="ubicacion" className={styles.about}>
   <center><h2>Ubicación</h2></center>
   <p>Nos encontramos en Villa de Canalejas,Jilotepec de Molina Enríquez, Estado de México.</p>
@@ -126,8 +123,8 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
 </section>
 
 
-      {/* Sección Contacto */}
-     <section id="contactanos" className={styles.about}>
+    
+<section id="contactanos" className={styles.about}>
   <div className={styles.contenedorFormulario}>
     <form
       name="contacto"
@@ -189,10 +186,13 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       </button>
     </form>
   </div>
+
+ 
 </section>
-    </main>
-    </div>
-  );
+
+</main>
+</div>
+);
 };
 
 export default Main;
