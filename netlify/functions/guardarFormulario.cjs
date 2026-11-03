@@ -1,9 +1,8 @@
 
+
 exports.handler = async (event) => {
   return {
     statusCode: 200,
-    body: JSON.stringify({ message: "Función funcionando correctamente" })
+    body: JSON.stringify({ mensaje: 'Guardado' })
   };
 };
-
-
