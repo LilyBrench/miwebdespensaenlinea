@@ -5,8 +5,15 @@ const Formulario = () => {
     method="POST" 
     data-netlify="true" 
     netlify-honeypot="bot-field"
-    action="/Gracias">
+    action="/gracias.html">
       <input type="hidden" name="form-name" value="contacto" />
+
+      <p hidden>
+    <label>
+      No llenar este campo:
+      <input name="bot-field" />
+    </label>
+  </p>
       <label>
         Nombre:
         <input type="text" name="nombre" required />
