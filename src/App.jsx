@@ -17,6 +17,7 @@ const Inicio = () => {
       <Hero />
       <Video />
       <Main />
+      <Gracias />
       <Footer />
     </div>
   );
