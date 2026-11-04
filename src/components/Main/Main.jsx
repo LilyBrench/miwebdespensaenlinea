@@ -130,11 +130,20 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       name="contacto"
       method="POST"
       data-netlify="true"
+      netlify-honeypot="bot-field"
       className={styles.formulario}
       
     >
       {/* Campo anti-spam */}
-      <input type="hidden" name="form-name" value="contacto" />
+      <input 
+      type="hidden" 
+      name="form-name" 
+      value="contacto" />
+
+      <input
+      type="hidden"
+       name="bot-field"
+      />
 
       <p hidden>
         <label>
