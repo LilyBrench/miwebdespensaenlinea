@@ -1,6 +1,6 @@
-const Formulario = () => {
+/* const Formulario = () => {
   return (
-    <form 
+   <form 
     name="contacto"
     method="POST" 
     data-netlify="true" 
@@ -32,4 +32,4 @@ const Formulario = () => {
   );
 };
 
-export default Formulario; 
+export default Formulario; /*
