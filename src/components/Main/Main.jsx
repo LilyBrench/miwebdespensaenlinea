@@ -141,11 +141,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       name="form-name" 
       value="contacto" />
 
-      <input
-      type="hidden"
-       name="bot-field"
-      />
-
+    
       <p hidden>
         <label>
           No llenar este campo:
@@ -190,7 +186,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
 
       <button
         type="submit"
-        className={styles.btnEnviar}
+       
       >
         Enviar mensaje
       </button>
