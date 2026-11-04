@@ -132,7 +132,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       data-netlify="true"
       netlify-honeypot="bot-field"
       action="/gracias.html"
-      className={styles.formulario}
+     
       
     >
       {/* Campo anti-spam */}
