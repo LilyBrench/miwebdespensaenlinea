@@ -131,8 +131,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
   name="contacto"
   method="POST"
   data-netlify="true"
-  netlify-honeypot="bot-field"
-  action="/gracias.html"
+  action="/gracias.html/success"
 >
      
       
@@ -140,7 +139,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       <input 
       type="hidden" 
       name="form-name" 
-      value="contacto" />
+      value="contacto"/>
 
     
       <p hidden>
