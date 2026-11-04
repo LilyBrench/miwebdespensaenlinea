@@ -2,69 +2,85 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Mensaje enviado</title>
+<title>Gracias por contactarnos</title>
 
 <style>
 
-body{
+*{
     margin:0;
     padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    font-family: Arial, sans-serif;
 
     background: linear-gradient(
-        90deg,
+        135deg,
         #14d8e6,
-        #71dc8a,
-        #d9dd2a
+        #6edb8f,
+        #d6dd31
     );
 }
 
 .contenedor{
-    background: rgba(255,255,255,0.95);
-    padding:40px;
-    border-radius:20px;
+    background:white;
+    width:90%;
+    max-width:600px;
+    padding:50px;
+    border-radius:25px;
     text-align:center;
-    max-width:500px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    box-shadow:0 12px 30px rgba(0,0,0,.20);
+}
+
+.icono{
+    font-size:70px;
+    margin-bottom:20px;
 }
 
 h1{
-    color:#004aad;
-    margin-bottom:15px;
+    color:#003b8e;
+    margin-bottom:20px;
+    font-size:38px;
 }
 
 p{
-    color:#333;
-    font-size:18px;
+    color:#444;
+    font-size:20px;
+    line-height:1.6;
+    margin-bottom:30px;
 }
 
-a{
+.boton{
     display:inline-block;
-    margin-top:20px;
-    padding:12px 25px;
-    text-decoration:none;
-    font-weight:bold;
-    color:white;
-    border-radius:10px;
-
-    background: linear-gradient(
+    background:linear-gradient(
         90deg,
         #14d8e6,
-        #71dc8a,
-        #d9dd2a
+        #6edb8f,
+        #d6dd31
     );
+
+    color:#003b8e;
+    font-weight:bold;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:12px;
+    font-size:18px;
+    transition:.3s;
 }
 
-a:hover{
-    opacity:0.9;
+.boton:hover{
+    transform:translateY(-3px);
+    box-shadow:0 6px 15px rgba(0,0,0,.25);
 }
 
 </style>
@@ -74,15 +90,17 @@ a:hover{
 
 <div class="contenedor">
 
-    <h1>✅ ¡Gracias por contactarnos!</h1>
+    <div class="icono">✅</div>
+
+    <h1>¡Mensaje enviado!</h1>
 
     <p>
-        Hemos recibido tu mensaje correctamente.
-        Nos pondremos en contacto contigo lo antes posible.
+        Gracias por contactar con <strong>Despensa en Línea</strong>.
+        Hemos recibido correctamente tu información y nos pondremos en contacto contigo lo antes posible.
     </p>
 
-    <a href="/https://miwebdespensaenlinea.netlify.app/">
-        Volver al sitio web
+    <a href="/https://miwebdespensaenlinea.netlify.app/" class="boton">
+        Volver al sitio
     </a>
 
 </div>
