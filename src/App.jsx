@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Video from "./components/Video/Video";
 import Main from "./components/Main/Main";
-import Gracias from "./components/Video/Gracias";
+import Gracias from "./components/Gracias/Gracias";
 import Footer from "./components/Footer/Footer";
 
 import styles from "./App.module.css";
