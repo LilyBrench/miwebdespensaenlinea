@@ -1,32 +1,11 @@
 
-
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Gracias por contactarnos</title>
-</head>
-<body>
-
-<div class="contenedor">
-
-    <div class="icono">✅</div>
-
-    <h1>¡Mensaje enviado!</h1>
-
-    <p>
-        Gracias por contactar con <strong>Despensa en Línea</strong>.
-        Hemos recibido correctamente tu información y nos pondremos en contacto contigo lo antes posible.
-    </p>
-
-    <a href="/https://www.coppel.com/" class="boton">
-        Volver al sitio
-    </a>
-
-</div>
+<title>¡Datos enviados!</title>
 
 <style>
 
@@ -34,7 +13,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -42,70 +21,76 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-
-    background: linear-gradient(
+    background:linear-gradient(
         135deg,
-        #14d8e6,
-        #6edb8f,
-        #d6dd31
+        #0f172a,
+        #0ea5e9
     );
 }
 
 .contenedor{
     background:white;
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
     width:90%;
     max-width:600px;
-    padding:50px;
-    border-radius:25px;
-    text-align:center;
-    box-shadow:0 12px 30px rgba(0,0,0,.20);
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
 }
 
 .icono{
-    font-size:70px;
+    font-size:80px;
     margin-bottom:20px;
 }
 
 h1{
-    color:#003b8e;
-    margin-bottom:20px;
-    font-size:38px;
+    color:#0f172a;
+    margin-bottom:15px;
 }
 
 p{
-    color:#444;
-    font-size:20px;
+    color:#555;
+    margin-bottom:25px;
     line-height:1.6;
-    margin-bottom:30px;
 }
 
 .boton{
     display:inline-block;
-    background:linear-gradient(
-        90deg,
-        #14d8e6,
-        #6edb8f,
-        #d6dd31
-    );
-
-    color:#003b8e;
-    font-weight:bold;
     text-decoration:none;
-    padding:15px 35px;
-    border-radius:12px;
-    font-size:18px;
+    background:#0ea5e9;
+    color:white;
+    padding:14px 30px;
+    border-radius:10px;
+    font-weight:bold;
     transition:.3s;
 }
 
 .boton:hover{
+    background:#0284c7;
     transform:translateY(-3px);
-    box-shadow:0 6px 15px rgba(0,0,0,.25);
 }
 
 </style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<div class="icono">✅</div>
+
+<h1>¡Datos enviados correctamente!</h1>
+
+<p>
+Gracias por comunicarte con nosotros.
+Hemos recibido tu información y pronto nos pondremos en contacto contigo.
+</p>
+
+<a href="/https://midespensa-enlinea.netlify.app/" class="boton">
+Volver al inicio
+</a>
+
+</div>
 
 </body>
-
-
-
 </html>
