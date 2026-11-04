@@ -5,7 +5,8 @@ const Formulario = () => {
     method="POST" 
     data-netlify="true" 
     netlify-honeypot="bot-field"
-    action="/Gracias">
+    action="/gracias.html"
+    >
       <input type="hidden" name="form-name" value="contacto" />
 
       <p hidden>
