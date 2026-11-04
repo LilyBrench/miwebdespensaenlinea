@@ -131,7 +131,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       method="POST"
       data-netlify="true"
       netlify-honeypot="bot-field"
-      action="/gracias.html"
+      action="/gracias"
       className={styles.formulario}
       
     >

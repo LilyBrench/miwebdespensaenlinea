@@ -1,11 +1,11 @@
-/* const Formulario = () => {
+const Formulario = () => {
   return (
    <form 
     name="contacto"
     method="POST" 
     data-netlify="true" 
     netlify-honeypot="bot-field"
-    action="/gracias.html"
+    action="/gracias"
     >
       <input type="hidden" name="form-name" value="contacto" />
 
@@ -32,4 +32,4 @@
   );
 };
 
-export default Formulario; */
+export default Formulario; 
