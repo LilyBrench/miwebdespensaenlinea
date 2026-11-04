@@ -13,7 +13,7 @@ const Gracias = () => {
           Nos pondremos en contacto contigo lo antes posible.
         </p>
 
-        <a href="/https://miwebdespensaenlinea.netlify.app/" className={styles.boton}>
+        <a href="/https://midespensa-enlinea.netlify.app/" className={styles.boton}>
           Volver al inicio
         </a>
       </div>
