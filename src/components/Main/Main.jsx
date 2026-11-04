@@ -128,10 +128,15 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
   <div className={styles.contenedorFormulario}>
     <form 
   
-  name="contacto"
-  method="POST"
-  data-netlify="true"
-  action="/gracias.html/success"
+     name="contacto"
+     method="POST"
+     data-netlify="true"
+     netlify-honeypot="bot-field"
+     onSubmit={() => {
+    setTimeout(() => {
+      window.location.href = "/gracias.html";
+    }, 1000);
+  }}
 >
      
       
