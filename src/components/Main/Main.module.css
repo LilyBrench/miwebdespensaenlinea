@@ -133,6 +133,9 @@ tr:nth-child(even) {
 }
 
 .formulario {
+
+     background:red !important;
+    border:10px solid blue !important;
   background: rgba(255, 255, 255, 0.95);
   width: 100%;
   max-width: 650px;
