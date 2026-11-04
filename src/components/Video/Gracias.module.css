@@ -1,0 +1,64 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  animation: aparecer 0.8s ease;
+}
+
+.icono {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+
+.card h1 {
+  color: #2E7D32;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.boton {
+  display: inline-block;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  padding: 14px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background: #2E7D32;
+  transform: translateY(-2px);
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
