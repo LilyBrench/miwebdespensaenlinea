@@ -162,7 +162,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
           type="text"
           id="nombre"
           name="nombre"
-          placeholder="Escribe tu nombre"
+          placeholder="Escribe tu nombre como cliente"
           required
         />
       </div>
@@ -193,8 +193,10 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
         type="submit"
        
       >
-        Enviar mensaje
+        Enviar mensaje en este boton
       </button>
+
+      
     </form>
   </div>
 
