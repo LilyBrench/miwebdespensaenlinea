@@ -197,7 +197,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
       </div>
 
 
-return (
+
     <form onSubmit={enviarFormulario}></form>
       <button
   type="submit"
@@ -215,7 +215,7 @@ return (
 
 </main>
 </div>
-);
+  );
 };
 
 export default Main;
