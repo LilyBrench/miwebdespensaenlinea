@@ -1,5 +1,5 @@
 const Formulario = () => {
-  return (
+  
    <form 
     name="contacto"
     method="POST" 
@@ -29,7 +29,7 @@ const Formulario = () => {
       </label>
       <button type="submit">Enviar</button>
     </form>
-  );
+  
 };
 
 export default Formulario; 
