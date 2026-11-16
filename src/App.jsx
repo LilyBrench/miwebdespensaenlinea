@@ -8,6 +8,7 @@ import Gracias from "./components/Gracias/Gracias";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 
+
 import styles from "./App.module.css";
 
 function Inicio() {
@@ -33,4 +34,8 @@ function App() {
   );
 }
 
+<Routes>
+  <Route path="/" element={<Main />} />
+  <Route path="/gracias" element={<Gracias />} />
+</Routes>
 export default App;
