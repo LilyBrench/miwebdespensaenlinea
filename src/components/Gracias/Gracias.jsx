@@ -1,5 +1,6 @@
 import styles from "./Gracias.module.css";
 
+
 const Gracias = () => {
   return (
     <div className={styles.gracias}>
@@ -10,14 +11,14 @@ const Gracias = () => {
       </p>
 
 
-<button
-  
-  type="submit"
-    href="https://midespensa-enlinea.netlify.app/"
-    className={styles.btnEnviar}
-  >
-    Volver al inicio
-</button>
+
+
+    
+  <a href="https://midespensa-enlinea.netlify.app/"
+  className={styles.btnEnviar}
+>
+  Volver al inicio
+</a>
 </div>
   );
   
