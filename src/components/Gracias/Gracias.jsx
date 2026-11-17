@@ -10,15 +10,16 @@ const Gracias = () => {
       </p>
 
 
-<button
-  type="submit"
-  className={styles.btnEnviar}
-></button>
-      <a href="/https://midespensa-enlinea.netlify.app/" class="boton">
-Volver al inicio
-</a>
-    </div>
+
+  <a
+    href="https://midespensa-enlinea.netlify.app/"
+    className={styles.btnEnviar}
+  >
+    Volver al inicio
+  </a>
+</div>
   );
+  
 };
 
 export default Gracias;
