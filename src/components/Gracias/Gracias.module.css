@@ -7,6 +7,24 @@
   padding: 20px;
 }
 
+.btnEnviar {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #00c2cb,
+    #7ed957,
+    #d6e431
+  );
+  color: #003b8e;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .card {
   background-color: white;
   max-width: 600px;
