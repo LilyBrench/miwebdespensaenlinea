@@ -4,10 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Video from "./components/Video/Video";
-import Gracias from "./components/Gracias/Gracias";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
-
+import Gracias from "./components/Gracias/Gracias";
 
 import styles from "./App.module.css";
 
@@ -34,8 +33,4 @@ function App() {
   );
 }
 
-<Routes>
-  <Route path="/" element={<Main />} />
-  <Route path="/gracias" element={<Gracias />} />
-</Routes>
 export default App;

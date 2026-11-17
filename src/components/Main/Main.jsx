@@ -2,19 +2,11 @@
 import styles from './Main.module.css';
 import Mapa from '../Mapa/Mapa';
 import ProductCard from '../ProductCard/ProductCard';
-import { useNavigate } from "react-router-dom";
+
 
 
 const Main = () => {
 
-  const navigate = useNavigate();
-       const enviarFormulario = (e) => {
-    e.preventDefault();
-
-    // Aquí puedes agregar la lógica de envío
-
-    navigate("/gracias");
-  };
   return (
     <div>
       <main className={styles.main}>
@@ -143,6 +135,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
      method="POST"
      data-netlify="true"
      netlify-honeypot="bot-field"
+  action="/gracias"
      
 >
      
@@ -198,7 +191,7 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
 
 
 
-    <form onSubmit={enviarFormulario}></form>
+    
       <button
   type="submit"
   className={styles.btnEnviar}
