@@ -2,16 +2,10 @@
 import styles from './Main.module.css';
 import Mapa from '../Mapa/Mapa';
 import ProductCard from '../ProductCard/ProductCard';
-import { useNavigate } from "react-router-dom";
+
 
 
 const Main = () => {
-const navigate = useNavigate();
-
-  const enviarFormulario = (e) => {
-  e.preventDefault();
-  navigate("/gracias");
-  }
 
   return (
     <div>
@@ -135,15 +129,15 @@ promoviendo la identidad cultural y el orgullo por lo local, mientras impulsamos
     
 <section id="contacto" className={styles.about}>
   <div className={styles.contenedorFormulario}>
-    <form  onSubmit={enviarFormulario}
-      //name="contacto"
-     //method="POST"
-     //data-netlify="true"
-     //netlify-honeypot="bot-field"
-  //action="/gracias"
-  
-     
+    
+  <form
+  name="contacto"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  action="/gracias"
 >
+
      
       
       {/* Campo anti-spam */}
