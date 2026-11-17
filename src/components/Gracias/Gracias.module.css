@@ -30,6 +30,13 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.gracias {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .card {
   background-color: white;
   max-width: 600px;
@@ -73,6 +80,7 @@
   background: #2E7D32;
   transform: translateY(-2px);
 }
+
 
 @keyframes aparecer {
   from {
