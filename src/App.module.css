@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 :global(body) {
@@ -91,8 +94,8 @@ body {
   overflow-x: hidden;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
+.logo img {
+    width: 150px;
+    height: auto;
+    display: block;
 }
