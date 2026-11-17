@@ -7,7 +7,8 @@
   padding: 20px;
 }
 
-.btnEnviar {
+
+ .btnEnviar {
   width: 100%;
   background: linear-gradient(
     90deg,
@@ -29,6 +30,9 @@
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+
+
+
 
 .gracias {
   min-height: 100vh;
