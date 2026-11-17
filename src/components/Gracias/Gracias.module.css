@@ -9,22 +9,21 @@
 
 
  .btnEnviar {
-  width: 100%;
-  background: linear-gradient(
-    90deg,
-    #00c2cb,
-    #7ed957,
-    #d6e431
-  );
-  color: #003b8e;
-  font-size: 20px;
+
+  background: linear-gradient(90deg, #12c8d4, #d9e021);
+  color: #0033a0;
+  font-size: 18px;
   font-weight: bold;
-  padding: 15px;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: 0.3s;
+  text-decoration: none;
+  width: 230px;
+  height: 50px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto 0;
 }
+
 
 .btnEnviar:hover {
   transform: translateY(-3px);
