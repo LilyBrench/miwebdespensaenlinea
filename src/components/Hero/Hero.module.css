@@ -1,11 +1,14 @@
 
 .hero {
+
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(to right,#00fffb);
+  background: linear-gradient(to right, #00fffb);
   color: rgb(77, 24, 24);
-  width: 1060px;
+  width: 100%;
+  max-width: 100%;
 }
+
 
 .btn {
   background-color: #ffcc00;
@@ -18,4 +21,25 @@
 
 .btn:hover {
   background-color: #ffe066;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    width: 100%;
+    padding: 30px 15px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+  }
 }
