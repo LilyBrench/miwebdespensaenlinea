@@ -22,7 +22,7 @@ const Header = () => (
             <li><a href="#inicio">Inicio</a></li>
                 <li className={styles.submenu}> 
 
-                 <a href="#nosotros">Nosotros</a>
+                 <a href="#nosotros">Nosotros ▼</a>
                    <ul className={styles.dropdown}>
                              
                   
