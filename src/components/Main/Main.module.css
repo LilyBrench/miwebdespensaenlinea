@@ -27,10 +27,26 @@
 }
 
 
-.productos {
-  margin: 40px auto;
-  padding: 20px;
+
+  .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+.producto {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .producto img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .productGrid {
   display: grid;
